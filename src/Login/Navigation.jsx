@@ -5,7 +5,7 @@ import {Link,Outlet} from 'react-router-dom';
 
 export const Navigation=()=>{
     return(
-        <div>
+        <div style={{backgroundColor:'black', color:'white'}}>
             
             <div>
             <Link to="/nav/home" style={{margin:"5px",textDecoration:'none'}} >Home</Link>
